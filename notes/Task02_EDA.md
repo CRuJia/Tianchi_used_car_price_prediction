@@ -1,36 +1,4 @@
-
-- 载入各种数据科学以及可视化库:
-数据科学库 pandas、numpy、scipy；
-可视化库 matplotlib、seabon；
-[seabon官网](http://seaborn.pydata.org/index.html)
-其他；
-- 载入数据：
-载入训练集和测试集；
-简略观察数据(head()+shape)；
-- 数据总览:
-通过describe()来熟悉数据的相关统计量
-通过info()来熟悉数据类型
-- 判断数据缺失和异常
-查看每列的存在nan情况
-异常值检测
-- 了解预测值的分布
-总体分布概况（无界约翰逊分布等）
-查看skewness and kurtosis
-查看预测值的具体频数
-- 特征分为类别特征和数字特征，并对类别特征查看unique分布
-- 数字特征分析
-相关性分析
-查看几个特征得 偏度和峰值
-每个数字特征得分布可视化
-数字特征相互之间的关系可视化
-多变量互相回归关系可视化
-- 类型特征分析
-unique分布
-类别特征箱形图可视化
-类别特征的小提琴图可视化
-类别特征的柱形图可视化类别
-特征的每个类别频数可视化(count_plot)
-- 用pandas_profiling生成数据报告
+[TOC]
 
 ## 1、EDA目的
 EDA: Exploratory Data Analysis - 探索性数据分析
@@ -41,8 +9,13 @@ EDA: Exploratory Data Analysis - 探索性数据分析
 
 ## 2、主要内容
 ### 2.1、载入各种数据科学以及可视化库:
-- 数据科学库 pandas、numpy、scipy；
-- 可视化库 matplotlib、seabon；
+- 数据科学库 pandas、numpy、scipy；  
+[这100道练习，带你玩转Numpy](https://www.kesci.com/home/project/59f29f67c5f3f5119527a2cc)  
+[50道练习带你玩转Pandas](https://www.kesci.com/home/project/5ddc974ef41512002cec1dca)   
+
+- 可视化库 matplotlib、seabon；  
+[50题matplotlib从入门到精通](https://www.kesci.com/home/project/5de9f0a0953ca8002c95d2a9)  
+[seaborn官方Tutirual](http://seaborn.pydata.org/tutorial.html)，质量比较高。
 - 其他；  
 数据缺失可视化工具missingno：  
 [missingno官方文档](https://github.com/ResidentMario/missingno)  
